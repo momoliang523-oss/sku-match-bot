@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.skumatch.bot</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/opt/homebrew/bin/node</string>
+        <string>/Users/ryomomo/sku-match/bot.js</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/ryomomo/sku-match</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+        <key>HOME</key>
+        <string>/Users/ryomomo</string>
+        <key>BASE_TOKEN</key>
+        <string>YOUR_BASE_TOKEN</string>
+    </dict>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>KeepAlive</key>
+    <true/>
+
+    <key>StandardOutPath</key>
+    <string>/Users/ryomomo/sku-match/bot.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/ryomomo/sku-match/bot.log</string>
+</dict>
+</plist>

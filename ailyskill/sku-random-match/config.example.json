@@ -1,0 +1,6 @@
+{
+  "appId": "cli_xxxxxxxxxxxxxxxx",
+  "appSecret": "在这里填应用密钥",
+  "baseToken": "在这里填多维表格token（链接 /base/ 后面的部分）",
+  "orderTable": ""
+}
